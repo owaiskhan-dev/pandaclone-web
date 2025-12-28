@@ -39,9 +39,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-        run: npm run build
-        env:
-          VITE_BASE_PATH: /pandaclone-web/
+        run: npm run build -- --base=/pandaclone-web/
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
