@@ -4,7 +4,7 @@ A high-fidelity, responsive frontend clone of the Foodpanda platform, built with
 
 ## 🚀 Live Demo
 
-Check out the live site here: **[https://muzamil-ai-dev.github.io/pandaclone-frontend/](https://muzamil-ai-dev.github.io/pandaclone-frontend/)**
+Check out the live site here: 
 
 ## ✨ Key Features
 
@@ -30,37 +30,5 @@ Check out the live site here: **[https://muzamil-ai-dev.github.io/pandaclone-fro
 - **State Management:** TanStack Query (React Query)
 - **Deployment:** GitHub Actions
 
-## 💻 Local Development
-
-Follow these steps to run the project locally:
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/Muzamil-Ai-Dev/pandaclone-frontend.git
-   ```
-
-2. **Navigate to the directory:**
-   ```sh
-   cd pandaclone-frontend
-   ```
-
-3. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-
-4. **Start the development server:**
-   ```sh
-   npm run dev
-   ```
-
-## 📦 Build and Deployment
-
-The project is configured for automated deployment via **GitHub Actions**.
-
-- **Build Command:** `npm run build`
-- **Deployment Workflow:** Any push to the `main` branch triggers the `.github/workflows/deploy.yml` workflow, which builds the production assets and deploys them to the `gh-pages` environment.
-
-## 📄 License
 
 This project is built for educational purposes as part of a software engineering assignment."# pandaclone-web" 
